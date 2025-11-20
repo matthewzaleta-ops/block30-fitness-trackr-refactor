@@ -14,7 +14,6 @@ function ActivityListItem({ activity }) {
   return (
     <li>
       <Link to={"/activities/" + activity.id}>{activity.name}</Link>
-      <p>{activity.name}</p>
     </li>
   );
 }

@@ -1,5 +1,5 @@
-import { useParams } from "react-router";
-import { useEffect } from "react";
+import { useParams, useNavigate } from "react-router";
+import { useEffect, useState } from "react";
 import { deleteActivity, getActivity } from "../api/activities";
 import { useAuth } from "../auth/AuthContext";
 
